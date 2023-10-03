@@ -4,8 +4,13 @@ import Usuario from '../models/usuario.js';
 import constants from '../config/constants.js';
 
 class AuthService {
+
   async login(data) {
     try {
+    if (!data.senha) {
+      throw new Error('A senha de usuário é obrigatória!');
+    }
+
       if (!data.email) {
         throw new Error('O email do usuario é obrigatório.');
       }

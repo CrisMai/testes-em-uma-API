@@ -1,0 +1,5 @@
+- O usuário deve possuir um nome, email e senha
+- A senha do usuário precisa ser criptografada quando for salva no banco de dados
+- Não pode ser cadastrado um usuário com e-mail duplicado
+- Ao cadastrar um usuário, deve ser retornado mensagem informando que o usuário foi cadastrado
+- Ao cadastrar um usuário, validar retorno do usuário
