@@ -4,8 +4,8 @@ import db from '../../db/dbconfig';
 describe('Testando configDB', () => {
     it('Teste de conexão com o banco de dados', async () => {
         const autorMock = {
-            nome: "Cris",
-            nacionalidade: "Brasileiro",
+            nome: "Cristiane",
+            nacionalidade: "Brasileira",
             created_at: new Date().toISOString(),
             updated_at: new Date().toISOString()
 
@@ -16,6 +16,8 @@ describe('Testando configDB', () => {
             .then((autorSelecionado) => autorSelecionado[0]);
             
         expect(autorSalvo.nome).toBe(autorMock.nome);
+
+        await db('autores').where({id: autorSalvo.id}).del();
     });
   });
   
