@@ -49,3 +49,12 @@ adicionar comentários e curtir postagens.
 Teste de Aceitação: Garante que o sistema atende aos critérios de aceitação definidos pelo cliente. 
 Exemplo: Confirmar se um aplicativo de delivery atende às expectativas do cliente, como entregar os itens corretos 
 dentro do prazo.
+
+
+Teste End-to-End (E2E)
+
+Os testes de ponta a ponta, também conhecidos como testes end-to-end (E2E), são uma abordagem de teste 
+de software que verifica todo o fluxo de um aplicativo ou sistema, simulando o comportamento do usuário 
+real, desde o início até o fim.
+Esses testes são projetados para avaliar a funcionalidade, integração e interações entre diferentes 
+componentes de um sistema em um ambiente semelhante ao do usuário final. 
