@@ -58,3 +58,13 @@ de software que verifica todo o fluxo de um aplicativo ou sistema, simulando o c
 real, desde o início até o fim.
 Esses testes são projetados para avaliar a funcionalidade, integração e interações entre diferentes 
 componentes de um sistema em um ambiente semelhante ao do usuário final. 
+
+
+Test-Driven Development (TDD)
+
+Desenvolvimento orientado por testes, é uma técnica que faz uso de testes automatizados para guiar o 
+desenvolvimento de novas funcionalidades ou correção de bugs.
+No TDD, você começa criando testes que definem o comportamento desejado da função. 
+Em seguida, implementa o código da função de maneira que os testes passem, garantindo que a funcionalidade 
+esteja correta. 
+Por fim, se necessário, você pode refatorar o código para melhorar sua estrutura ou legibilidade.
